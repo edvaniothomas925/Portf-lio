@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - Edvanio Tomas</title>
+  <!-- Ícones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    /* Reset */
+    * {margin: 0; padding: 0; box-sizing: border-box;}
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #0d1117;
+      color: #e6edf3;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    header {
+      text-align: center;
+      padding: 80px 20px;
+      background: radial-gradient(circle at top, #161b22, #0d1117);
+      position: relative;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: #58a6ff;
+      text-shadow: 0 0 10px #58a6ff;
+      animation: glow 2s infinite alternate;
+    }
+
+    @keyframes glow {
+      from { text-shadow: 0 0 10px #58a6ff; }
+      to { text-shadow: 0 0 25px #1f6feb; }
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #8b949e;
+      margin-top: 10px;
+    }
+
+    nav {
+      margin-top: 20px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #58a6ff;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #1f6feb;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 20px;
+      animation: fadeIn 1s ease-in;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      border-left: 5px solid #58a6ff;
+      padding-left: 10px;
+      margin-bottom: 20px;
+      color: #58a6ff;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    ul li {
+      background: #161b22;
+      margin: 12px 0;
+      padding: 12px;
+      border-radius: 10px;
+      transition: transform 0.3s, background 0.3s;
+    }
+
+    ul li:hover {
+      transform: translateX(5px);
+      background: #1f2937;
+    }
+
+    .contato a {
+      color: #58a6ff;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .contato a:hover {
+      color: #1f6feb;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      border-top: 1px solid #30363d;
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #8b949e;
+    }
+
+    /* Animações */
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(30px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>&lt;Edvanio Tomas /&gt;</h1>
+    <p>Técnico de Informática | Suporte | Criador</p>
+    <nav>
+      <a href="#sobre"><i class="fas fa-user"></i> Sobre</a>
+      <a href="#habilidades"><i class="fas fa-code"></i> Habilidades</a>
+      <a href="#projetos"><i class="fas fa-project-diagram"></i> Projetos</a>
+      <a href="#contato"><i class="fas fa-envelope"></i> Contato</a>
+    </nav>
+  </header>
+
+  <section id="sobre">
+    <h2>👤 Sobre mim</h2>
+    <p>Tenho 18 anos, sou apaixonado por tecnologia e formado como Técnico de Informática. Experiência em suporte técnico, pacote Office, Photoshop básico e manutenção de computadores. Busco sempre aprender mais e aplicar meus conhecimentos em projetos reais.</p>
+  </section>
+
+  <section id="habilidades">
+    <h2>⚡ Habilidades</h2>
+    <ul>
+      <li><i class="fas fa-desktop"></i> Pacote Office</li>
+      <li><i class="fas fa-paint-brush"></i> Photoshop básico</li>
+      <li><i class="fas fa-tools"></i> Montagem e manutenção de computadores</li>
+      <li><i class="fas fa-recycle"></i> Reciclagem de cartuchos</li>
+      <li><i class="fas fa-headset"></i> Atendimento ao cliente</li>
+    </ul>
+  </section>
+
+  <section id="projetos">
+    <h2>🚀 Projetos</h2>
+    <ul>
+      <li>📌 Configuração de computadores para clientes locais</li>
+      <li>🎨 Criação de designs simples no Photoshop</li>
+      <li>🛠️ Suporte técnico em informática</li>
+    </ul>
+  </section>
+
+  <section id="contato" class="contato">
+    <h2>📩 Contato</h2>
+    <p>Email: <a href="mailto:edvaniothomas47@gmail.com">edvaniothomas47@gmail.com</a></p>
+    <p>WhatsApp: <a href="https://wa.me/244941969334" target="_blank">+244 941 969 334</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Edvanio Tomas - Portfólio | Feito com 💻 e ☕</p>
+  </footer>
+
+</body>
+</html>
